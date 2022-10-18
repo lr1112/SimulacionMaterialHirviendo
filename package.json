@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "flowbite": "^1.5.3",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "build": "browserify index.js -o bundle.js"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "tailwindcss": "^3.1.8"
+  }
+}
